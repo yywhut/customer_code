@@ -305,11 +305,11 @@ let g:clang_user_options='|| exit 0'
 "  ":inoremap ( ()<Esc>i  
 "  ":inoremap { {}<Esc>i  
 "  ":inoremap } {}<Esc>i  
-:inoremap [ []<Esc>i  
+"  ":inoremap [ []<Esc>i  
 "  ":inoremap ] []<Esc>i  
-:inoremap < <><Esc>i  
+"  ":inoremap < <><Esc>i  
 "  ":inoremap > <><Esc>i  
-:inoremap " ""<Esc>i  
-:inoremap ' ''<Esc>i 
+"  ":inoremap " ""<Esc>i  
+"  ":inoremap ' ''<Esc>i 
           
 
