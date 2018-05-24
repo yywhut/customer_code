@@ -311,5 +311,10 @@ let g:clang_user_options='|| exit 0'
 "  ":inoremap > <><Esc>i  
 "  ":inoremap " ""<Esc>i  
 "  ":inoremap ' ''<Esc>i 
+
+
+
+
+map <F12> :!ctags --extra=+q --fields=+Saim --java-kinds=+l --c++-kinds=+lpx --c-kinds=+lpx -R . <CR><CR> :!find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp"> cscope.files <CR><CR> :!cscope -bkq -i cscope.files<CR><CR> :cs reset<CR><CR>
           
 
