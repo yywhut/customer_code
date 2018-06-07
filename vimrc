@@ -59,7 +59,8 @@ map <C-A> ggVGY
 map! <C-A> <Esc>ggVGY
 
 
-
+nmap    w=  :resize+3<CR>
+nmap    w-  :resize-3<CR>
 
  
 set nocompatible              " be iMproved, required
